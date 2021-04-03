@@ -13,7 +13,10 @@ environment:
 dependencies:
   # firebase_core: ^1.0.1
   firebase_core:
-    path: ../../firebase_core/firebase_core/
+    git:
+      url: git://github.com/Hasilt/flutterfire
+      ref: crashlytics_android_11_crash
+      path: packages/firebase_core/firebase_core
   firebase_core_platform_interface: ^4.0.0
   firebase_crashlytics_platform_interface: ^2.0.0
   flutter:
